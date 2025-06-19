@@ -33,8 +33,10 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(180deg, rgba(130,130,130,1) 0%, rgba(255,255,255,1) 100%);
-  filter: blur(10px);
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .content {
