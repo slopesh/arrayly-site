@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@keyframes textShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
 body {
   overflow: hidden;
 }
@@ -137,14 +146,12 @@ body {
   font-family: Inter;
   font-size: 30px;
   font-weight: bold;
-  background: #7C7C7C;
-  background: linear-gradient(to top left, #7C7C7C 0%, #FFFFFF 100%);
-  background-clip: text;
-  background-clip: text;
-  background-clip: text;
+  background: linear-gradient(120deg, #ffffff 0%, #858585 50%, #ffffff 100%);
+  background-size: 200% auto;
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent;  
+  -webkit-text-fill-color: transparent;
+  animation: textShine 3s linear infinite;
 }
 
 .description {
