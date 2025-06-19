@@ -154,7 +154,7 @@ body {
   font-size: 15px;
   font-family: Inter;
   font-weight: 600;
-  background: #7C7C7C(to top left, #7C7C7C 0%, #FFFFFF 100%);
+  background: linear-gradient(to top left, #7C7C7C 0%, #FFFFFF 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
